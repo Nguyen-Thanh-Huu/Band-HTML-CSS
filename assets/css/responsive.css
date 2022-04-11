@@ -1,0 +1,119 @@
+/* PC  */
+@media (min-width: 64em) {
+    .info-personal:hover {
+        opacity: 0.7;
+    }
+}
+
+/* TABLET AND MOBILE  */
+@media (max-width: 63.9375em) {
+    .cocial-list a {
+        font-size: 26px;
+        padding: 10px 16px;
+        
+    }
+
+    .contact-info {
+        line-height: 2;
+    }
+
+    .contact-form .form-control {
+        padding: 14px;
+        font-size: 16px;
+    }
+
+    .w3-school {
+        padding: 12px 0 ; 
+
+    }
+
+    .copyright {
+        margin-top: 8px;
+    }
+
+    .info-personal:hover {
+        opacity: 0.7;
+    }
+
+    .contact-submit-btn {
+        font-size: 17px;
+
+    }
+}
+
+/* TABLET  */
+@media (min-width:  46.25em) AND (max-width:63.9375em) {
+        #slider .text-content {
+            bottom: 30px;
+        }
+}   
+
+/* MOBILE  */
+@media (max-width: 46.1875em) {
+
+    #nav {
+        display: block;
+    }
+
+    #nav > li {
+        display: inline;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial ;
+        background-color: #333;
+    }
+
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 40px;
+    }
+
+    #nav li a {
+        padding: 1px 24px;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #header .search-btn {
+        display: none;
+    }
+
+    #slider .text-content {
+        bottom : 16px;
+    }
+
+    #slider .text-description {
+        margin-top: 10px;
+    }
+
+    .member-item,
+    .s-full-width {
+        width: 100%;
+    }
+
+    #content .fruit-image {
+        width: 60%;
+    }
+
+    .travel-list .travel-mobile {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .contact-content .form-mobile {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+}
